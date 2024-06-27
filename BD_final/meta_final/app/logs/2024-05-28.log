@@ -1,0 +1,154 @@
+00:40:36 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+00:40:36 INFO:  [33mPress CTRL+C to quit[0m
+00:40:38 INFO:  127.0.0.1 - - [28/May/2024 00:40:38] "PUT /dbproj/user HTTP/1.1" 200 -
+00:40:59 INFO:  127.0.0.1 - - [28/May/2024 00:40:59] "[31m[1mPOST /dbproj/bills/8 HTTP/1.1[0m" 403 -
+00:41:29 INFO:  127.0.0.1 - - [28/May/2024 00:41:29] "[31m[1mPOST /dbproj/bills/3 HTTP/1.1[0m" 403 -
+00:41:33 INFO:  127.0.0.1 - - [28/May/2024 00:41:33] "POST /dbproj/bills/4 HTTP/1.1" 200 -
+00:46:27 INFO:  127.0.0.1 - - [28/May/2024 00:46:27] "[31m[1mPOST /dbproj/bills/4 HTTP/1.1[0m" 400 -
+00:47:15 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+00:47:15 INFO:  [33mPress CTRL+C to quit[0m
+00:47:21 INFO:  127.0.0.1 - - [28/May/2024 00:47:21] "[31m[1mPOST /dbproj/bills/4 HTTP/1.1[0m" 400 -
+00:47:42 INFO:  127.0.0.1 - - [28/May/2024 00:47:42] "[31m[1mPOST /dbproj/bills/4 HTTP/1.1[0m" 400 -
+00:50:38 INFO:  127.0.0.1 - - [28/May/2024 00:50:38] "PUT /dbproj/user HTTP/1.1" 200 -
+00:51:56 INFO:  127.0.0.1 - - [28/May/2024 00:51:56] "POST /dbproj/bills/3 HTTP/1.1" 200 -
+00:55:20 INFO:  127.0.0.1 - - [28/May/2024 00:55:20] "PUT /dbproj/user HTTP/1.1" 200 -
+00:55:45 INFO:  127.0.0.1 - - [28/May/2024 00:55:45] "[31m[1mPOST /dbproj/bills/8 HTTP/1.1[0m" 400 -
+00:58:21 INFO:  127.0.0.1 - - [28/May/2024 00:58:21] "[31m[1mPOST /dbproj/bills/8 HTTP/1.1[0m" 400 -
+00:59:04 INFO:  127.0.0.1 - - [28/May/2024 00:59:04] "POST /dbproj/bills/8 HTTP/1.1" 200 -
+00:59:55 INFO:  127.0.0.1 - - [28/May/2024 00:59:55] "PUT /dbproj/user HTTP/1.1" 200 -
+01:02:07 INFO:  127.0.0.1 - - [28/May/2024 01:02:07] "POST /dbproj/bills/5 HTTP/1.1" 200 -
+01:13:33 INFO:  127.0.0.1 - - [28/May/2024 01:13:33] "[33mGET /dbproj/top3 HTTP/1.1[0m" 404 -
+01:14:19 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+01:14:19 INFO:  [33mPress CTRL+C to quit[0m
+01:15:02 INFO:  127.0.0.1 - - [28/May/2024 01:15:02] "PUT /dbproj/user HTTP/1.1" 200 -
+01:16:03 INFO:  127.0.0.1 - - [28/May/2024 01:16:03] "[35m[1mGET /dbproj/top3 HTTP/1.1[0m" 500 -
+01:17:31 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+01:17:31 INFO:  [33mPress CTRL+C to quit[0m
+01:17:33 INFO:  127.0.0.1 - - [28/May/2024 01:17:33] "[35m[1mGET /dbproj/top3 HTTP/1.1[0m" 500 -
+01:18:09 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+01:18:09 INFO:  [33mPress CTRL+C to quit[0m
+01:18:12 INFO:  127.0.0.1 - - [28/May/2024 01:18:12] "GET /dbproj/top3 HTTP/1.1" 200 -
+01:20:57 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+01:20:57 INFO:  [33mPress CTRL+C to quit[0m
+01:21:00 INFO:  127.0.0.1 - - [28/May/2024 01:21:00] "[35m[1mGET /dbproj/top3 HTTP/1.1[0m" 500 -
+01:22:16 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+01:22:16 INFO:  [33mPress CTRL+C to quit[0m
+01:22:21 INFO:  127.0.0.1 - - [28/May/2024 01:22:21] "GET /dbproj/top3 HTTP/1.1" 200 -
+02:15:39 INFO:  127.0.0.1 - - [28/May/2024 02:15:39] "PUT /dbproj/user HTTP/1.1" 200 -
+02:15:54 INFO:  127.0.0.1 - - [28/May/2024 02:15:54] "GET /dbproj/top3 HTTP/1.1" 200 -
+02:16:01 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+02:16:01 INFO:  [33mPress CTRL+C to quit[0m
+02:16:04 INFO:  127.0.0.1 - - [28/May/2024 02:16:04] "GET /dbproj/top3 HTTP/1.1" 200 -
+02:28:39 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+02:28:39 INFO:  [33mPress CTRL+C to quit[0m
+02:28:44 INFO:  127.0.0.1 - - [28/May/2024 02:28:44] "PUT /dbproj/user HTTP/1.1" 200 -
+02:28:56 INFO:  127.0.0.1 - - [28/May/2024 02:28:56] "GET /dbproj/top3 HTTP/1.1" 200 -
+02:30:22 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+02:30:22 INFO:  [33mPress CTRL+C to quit[0m
+02:30:24 INFO:  127.0.0.1 - - [28/May/2024 02:30:24] "GET /dbproj/top3 HTTP/1.1" 200 -
+02:31:44 INFO:  127.0.0.1 - - [28/May/2024 02:31:44] "PUT /dbproj/user HTTP/1.1" 200 -
+02:31:58 INFO:  127.0.0.1 - - [28/May/2024 02:31:58] "POST /dbproj/appointment HTTP/1.1" 200 -
+02:32:18 INFO:  127.0.0.1 - - [28/May/2024 02:32:18] "GET /dbproj/top3 HTTP/1.1" 200 -
+14:54:04 INFO:  127.0.0.1 - - [28/May/2024 14:54:04] "PUT /dbproj/user HTTP/1.1" 200 -
+14:54:26 INFO:  127.0.0.1 - - [28/May/2024 14:54:26] "POST /dbproj/prescription HTTP/1.1" 200 -
+14:55:20 INFO:  127.0.0.1 - - [28/May/2024 14:55:20] "POST /dbproj/prescription HTTP/1.1" 200 -
+15:13:55 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+15:13:55 INFO:  [33mPress CTRL+C to quit[0m
+15:14:15 INFO:  127.0.0.1 - - [28/May/2024 15:14:15] "PUT /dbproj/user HTTP/1.1" 200 -
+15:14:32 ERROR:  GET /daily/2024-05-20 - error: column "hospitalization_date" does not exist
+LINE 5:         WHERE DATE(hospitalization_date) = '2024-05-20'
+                           ^
+
+15:14:32 INFO:  127.0.0.1 - - [28/May/2024 15:14:32] "[35m[1mGET /dbproj/daily/2024-05-20 HTTP/1.1[0m" 500 -
+15:17:02 ERROR:  GET /daily/2024-05-20  - error: column "hospitalization_date" does not exist
+LINE 5:         WHERE DATE(hospitalization_date) = '2024-05-20 '
+                           ^
+
+15:17:02 INFO:  127.0.0.1 - - [28/May/2024 15:17:02] "[35m[1mGET /dbproj/daily/2024-05-20%20 HTTP/1.1[0m" 500 -
+15:19:44 ERROR:  GET /daily/2024-05-20  - error: column "hospitalization_date" does not exist
+LINE 5:         WHERE DATE(hospitalization_date) = '2024-05-20 '
+                           ^
+
+15:19:44 INFO:  127.0.0.1 - - [28/May/2024 15:19:44] "[35m[1mGET /dbproj/daily/2024-05-20%20 HTTP/1.1[0m" 500 -
+15:20:37 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+15:20:37 INFO:  [33mPress CTRL+C to quit[0m
+15:20:46 INFO:  127.0.0.1 - - [28/May/2024 15:20:46] "GET /dbproj/daily/2024-05-20%20 HTTP/1.1" 200 -
+15:21:10 INFO:  127.0.0.1 - - [28/May/2024 15:21:10] "GET /dbproj/daily/2024-05-15 HTTP/1.1" 200 -
+15:40:04 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+15:40:04 INFO:  [33mPress CTRL+C to quit[0m
+15:40:10 INFO:  127.0.0.1 - - [28/May/2024 15:40:10] "PUT /dbproj/user HTTP/1.1" 200 -
+15:41:12 INFO:  127.0.0.1 - - [28/May/2024 15:41:12] "[35m[1mPOST /dbproj/surgery HTTP/1.1[0m" 500 -
+15:43:50 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+15:43:50 INFO:  [33mPress CTRL+C to quit[0m
+15:43:54 INFO:  127.0.0.1 - - [28/May/2024 15:43:54] "[35m[1mPOST /dbproj/surgery HTTP/1.1[0m" 500 -
+15:44:50 INFO:  127.0.0.1 - - [28/May/2024 15:44:50] "[35m[1mPOST /dbproj/surgery HTTP/1.1[0m" 500 -
+15:44:56 INFO:  127.0.0.1 - - [28/May/2024 15:44:56] "POST /dbproj/surgery HTTP/1.1" 200 -
+15:47:31 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+15:47:31 INFO:  [33mPress CTRL+C to quit[0m
+15:48:36 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+15:48:36 INFO:  [33mPress CTRL+C to quit[0m
+15:50:10 INFO:  127.0.0.1 - - [28/May/2024 15:50:10] "[31m[1mGET /dbproj/appointments/20 HTTP/1.1[0m" 401 -
+15:51:03 INFO:  127.0.0.1 - - [28/May/2024 15:51:03] "[31m[1mPOST /dbproj/surgery/9 HTTP/1.1[0m" 401 -
+15:52:00 INFO:  127.0.0.1 - - [28/May/2024 15:52:00] "GET /dbproj/appointments/20 HTTP/1.1" 200 -
+15:53:05 INFO:  127.0.0.1 - - [28/May/2024 15:53:05] "[35m[1mPOST /dbproj/surgery HTTP/1.1[0m" 500 -
+15:53:05 INFO:  127.0.0.1 - - [28/May/2024 15:53:05] "[35m[1mPOST /dbproj/surgery/9 HTTP/1.1[0m" 500 -
+15:53:05 INFO:  127.0.0.1 - - [28/May/2024 15:53:05] "[35m[1mPOST /dbproj/surgery HTTP/1.1[0m" 500 -
+15:53:05 INFO:  127.0.0.1 - - [28/May/2024 15:53:05] "[35m[1mPOST /dbproj/surgery HTTP/1.1[0m" 500 -
+15:53:25 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+15:53:25 INFO:  [33mPress CTRL+C to quit[0m
+15:56:06 INFO:  127.0.0.1 - - [28/May/2024 15:56:06] "[31m[1mPOST /dbproj/surgery HTTP/1.1[0m" 401 -
+15:56:24 INFO:  127.0.0.1 - - [28/May/2024 15:56:24] "[31m[1mPOST /dbproj/surgery HTTP/1.1[0m" 401 -
+15:56:32 INFO:  127.0.0.1 - - [28/May/2024 15:56:32] "[31m[1mPOST /dbproj/surgery HTTP/1.1[0m" 401 -
+15:56:35 INFO:  127.0.0.1 - - [28/May/2024 15:56:35] "PUT /dbproj/user HTTP/1.1" 200 -
+16:00:06 INFO:  127.0.0.1 - - [28/May/2024 16:00:06] "[35m[1mPOST /dbproj/surgery HTTP/1.1[0m" 500 -
+16:00:27 INFO:  127.0.0.1 - - [28/May/2024 16:00:27] "[31m[1mGET /dbproj/top3 HTTP/1.1[0m" 401 -
+16:00:32 INFO:  127.0.0.1 - - [28/May/2024 16:00:32] "GET /dbproj/top3 HTTP/1.1" 200 -
+16:23:35 INFO:  127.0.0.1 - - [28/May/2024 16:23:35] "PUT /dbproj/user HTTP/1.1" 200 -
+16:23:55 INFO:  127.0.0.1 - - [28/May/2024 16:23:55] "POST /dbproj/appointment HTTP/1.1" 200 -
+16:24:26 INFO:  127.0.0.1 - - [28/May/2024 16:24:26] "PUT /dbproj/user HTTP/1.1" 200 -
+16:27:48 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+16:27:48 INFO:  [33mPress CTRL+C to quit[0m
+16:28:35 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+16:28:35 INFO:  [33mPress CTRL+C to quit[0m
+16:29:30 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+16:29:30 INFO:  [33mPress CTRL+C to quit[0m
+16:29:46 ERROR:  POST /Scheduling surgery - error: insert or update on table "hospitalization" violates foreign key constraint "hospitalization_fk1"
+DETAIL:  Key (patient_patient_id)=(5) is not present in table "patient".
+
+16:29:46 INFO:  127.0.0.1 - - [28/May/2024 16:29:46] "POST /dbproj/surgery HTTP/1.1" 200 -
+16:29:55 INFO:  127.0.0.1 - - [28/May/2024 16:29:55] "POST /dbproj/surgery HTTP/1.1" 200 -
+17:43:56 INFO:  127.0.0.1 - - [28/May/2024 17:43:56] "POST /dbproj/register/nurse HTTP/1.1" 200 -
+17:43:56 INFO:  127.0.0.1 - - [28/May/2024 17:43:56] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+17:43:56 INFO:  127.0.0.1 - - [28/May/2024 17:43:56] "POST /dbproj/register/assistant HTTP/1.1" 200 -
+17:43:56 INFO:  127.0.0.1 - - [28/May/2024 17:43:56] "POST /dbproj/register/patient HTTP/1.1" 200 -
+17:43:57 INFO:  127.0.0.1 - - [28/May/2024 17:43:57] "PUT /dbproj/user HTTP/1.1" 200 -
+17:43:57 INFO:  127.0.0.1 - - [28/May/2024 17:43:57] "POST /dbproj/register/patient HTTP/1.1" 200 -
+17:43:57 INFO:  127.0.0.1 - - [28/May/2024 17:43:57] "[31m[1mPOST /dbproj/appointment HTTP/1.1[0m" 401 -
+17:43:57 INFO:  127.0.0.1 - - [28/May/2024 17:43:57] "[31m[1mGET /dbproj/appointments/20 HTTP/1.1[0m" 401 -
+17:43:57 INFO:  127.0.0.1 - - [28/May/2024 17:43:57] "[31m[1mPOST /dbproj/surgery HTTP/1.1[0m" 401 -
+17:43:57 INFO:  127.0.0.1 - - [28/May/2024 17:43:57] "[31m[1mPOST /dbproj/surgery/9 HTTP/1.1[0m" 401 -
+17:43:57 INFO:  127.0.0.1 - - [28/May/2024 17:43:57] "[31m[1mPOST /dbproj/prescription HTTP/1.1[0m" 401 -
+17:43:57 INFO:  127.0.0.1 - - [28/May/2024 17:43:57] "[31m[1mGET /dbproj/prescriptions/20 HTTP/1.1[0m" 401 -
+17:43:57 INFO:  127.0.0.1 - - [28/May/2024 17:43:57] "[31m[1mPOST /dbproj/bills/5 HTTP/1.1[0m" 401 -
+17:43:57 INFO:  127.0.0.1 - - [28/May/2024 17:43:57] "[31m[1mGET /dbproj/top3 HTTP/1.1[0m" 401 -
+17:43:57 INFO:  127.0.0.1 - - [28/May/2024 17:43:57] "[31m[1mGET /dbproj/daily/2024-05-20 HTTP/1.1[0m" 401 -

@@ -1,0 +1,618 @@
+{
+	"info": {
+		"_postman_id": "6de5df31-ad68-432d-8293-229228fd1125",
+		"name": "Endpoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26992196"
+	},
+	"item": [
+		{
+			"name": "Create nurse",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "R",
+						"value": "254",
+						"type": "text"
+					},
+					{
+						"key": "G",
+						"value": "0",
+						"type": "text"
+					},
+					{
+						"key": "B",
+						"value": "0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"employe_id\":\"23\",\"name\":\"Olga\",\"contact_info\":\"olga@gmail.com\",\"contract_details\":\"12000\",\"password\":\"pass13\",\"internal_hierarchical_category\":\"responsible\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/register/nurse",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"register",
+						"nurse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Doctor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "R",
+						"value": "254",
+						"type": "text"
+					},
+					{
+						"key": "G",
+						"value": "0",
+						"type": "text"
+					},
+					{
+						"key": "B",
+						"value": "0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"employe_id\":\"4\",\"name\":\"Diogo\",\"contact_info\":\"diogo@gmail.com\",\"contract_details\":\"12000\",\"password\":\"pass23\",\"medical_license\":\"academic\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/register/doctor",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"register",
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Assistant",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "R",
+						"value": "254",
+						"type": "text"
+					},
+					{
+						"key": "G",
+						"value": "0",
+						"type": "text"
+					},
+					{
+						"key": "B",
+						"value": "0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"employe_id\":\"2\",\"name\":\"Pedro\",\"contact_info\":\"pedro@gmail.com\",\"contract_details\":\"1000\",\"password\":\"pass1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/register/assistant",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"register",
+						"assistant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Patient",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "R",
+						"value": "254",
+						"type": "text"
+					},
+					{
+						"key": "G",
+						"value": "0",
+						"type": "text"
+					},
+					{
+						"key": "B",
+						"value": "0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"patient_id\":\"8\",\"name\":\"Pedro\",\"contact_info\":\"pedro@gmail.com\",\"password\":\"pass8\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/register/patient",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"register",
+						"patient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Pedro\",\"password\":\"pass1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/user",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create patient",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"patient_id\":\"10\",\"name\":\"Ana\",\"contact_info\":\"Ana@gmail.com\",\"password\":\"pass45\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/register/patient",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"register",
+						"patient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Appointment",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjkwOTgxNSwianRpIjoiMWViNjRiNmMtZGNiYS00NWUzLWI3MjUtNWJjYTUwNDZhYTlkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJ1c2VyX2lkIjoiMjYiLCJyb2xlIjoicGF0aWVudCJ9LCJuYmYiOjE3MTY5MDk4MTUsImNzcmYiOiI3YTYzMjUzYy1kNjc1LTRjMTktODE2Ni0zZGRiMjliMTFjNjYiLCJleHAiOjE3MTY5MTA3MTV9.k_ypTDz2hpYf3xOxXKeKAySmeY8U6is-6er_5DZAUWE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"appointment_datetime\":\"2024-03-30 20:30:00\",\"patient_patient_id\":\"26\",\"assistant_employe_employe_id\":\"2\",\"doctor_employe_employe_id\":\"4\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/appointment",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"appointment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get appointment",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjkwNzIxMCwianRpIjoiODExNTllNDAtZGMyYS00YTBkLTkxM2MtNzhhMWFhZTBiNTZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJ1c2VyX2lkIjoiMiIsInJvbGUiOiJhc3Npc3RhbnQifSwibmJmIjoxNzE2OTA3MjEwLCJjc3JmIjoiMWNkNDg2MDctMWY3Mi00ZGNiLThiNWYtNjQ3OTU5MDkwOTM5IiwiZXhwIjoxNzE2OTA4MTEwfQ.pUqR7GWWez1ElgXzf5O6hdfq83tywSWVxvn3vilCjW4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/appointments/20",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"appointments",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Schedule surgery",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjkwOTg2NiwianRpIjoiNGQxNzE2NGEtYzY4MS00OGIzLWFiNzMtMmM1Yjc4ZDgyYTBkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJ1c2VyX2lkIjoiMiIsInJvbGUiOiJhc3Npc3RhbnQifSwibmJmIjoxNzE2OTA5ODY2LCJjc3JmIjoiMzIyZjFmMjQtMTdmYS00NzY2LWJlNWItM2U0OGI5YTc2M2Q1IiwiZXhwIjoxNzE2OTEwNzY2fQ.aGJEz6-oBlM1vpHR_4gDJuGZnZyem7oexUZrn8lEmds",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"patient_id\":\"26\",\"doctor_user_id\":\"4\",\"nurses\":\"23\",\"assistant_id\":\"2\", \"date\":\"2024-06-03\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/surgery",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"surgery"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Schedule surgery in hospitalization",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjkwNzIxMCwianRpIjoiODExNTllNDAtZGMyYS00YTBkLTkxM2MtNzhhMWFhZTBiNTZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJ1c2VyX2lkIjoiMiIsInJvbGUiOiJhc3Npc3RhbnQifSwibmJmIjoxNzE2OTA3MjEwLCJjc3JmIjoiMWNkNDg2MDctMWY3Mi00ZGNiLThiNWYtNjQ3OTU5MDkwOTM5IiwiZXhwIjoxNzE2OTA4MTEwfQ.pUqR7GWWez1ElgXzf5O6hdfq83tywSWVxvn3vilCjW4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"doctor_user_id\":\"4\",\"patient_id\":\"11\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/surgery/9",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"surgery",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add prescription",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjkwNDQ0NCwianRpIjoiMDI5Y2JlNGYtYmI1Zi00NTAyLTk0MDgtYjJiMjgxODQwYWVjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJ1c2VyX2lkIjoiNCIsInJvbGUiOiJkb2N0b3IifSwibmJmIjoxNzE2OTA0NDQ0LCJjc3JmIjoiYmQ3ZmQ0NDAtZTM0Mi00ZjU1LTk2NzItNTY5NWEwYjc4ZmMzIiwiZXhwIjoxNzE2OTA1MzQ0fQ.HAvuljLK-EEl64D3WoFYWVLiIpjIH5PL_W5qN9Pt9M0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"type\":\"appointment\",\"event\":\"9\",\"medicine\":[{\"name\":\"name0\",\"dosage\":8},{\"name\":\"name1\",\"dosage\":12}]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/prescription",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"prescription"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get prescription",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjg0Nzk3NCwianRpIjoiOTFlMjhkNGItMzFiNS00ZThjLWEzZmItYjBiNjcwMDQxMTc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJ1c2VyX2lkIjoiMjYiLCJyb2xlIjoicGF0aWVudCJ9LCJuYmYiOjE3MTY4NDc5NzQsImNzcmYiOiIzYTZjMzliYS1kMjAwLTRiZmQtYWU3Zi0xMjQ0ZmIxMmQ1NGQiLCJleHAiOjE3MTY4NDg4NzR9.hDhQxJnlv9wXSKeOjCuxa5Md70bZXZT0juXJ_Vb71sI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/prescriptions/20",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"prescriptions",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pay bill",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjg1NDM5NSwianRpIjoiYzJlNzY0YjgtOWIxMC00ZjYwLWExNWEtYzFmNzE1MDI5NDNjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJ1c2VyX2lkIjoiOCIsInJvbGUiOiJwYXRpZW50In0sIm5iZiI6MTcxNjg1NDM5NSwiY3NyZiI6IjNiYTE4MjJiLWIxN2ItNGUzMy04YTg0LWIzMmU0ZWU5MzM0NCIsImV4cCI6MTcxNjg1NTI5NX0.OwnwKFCzkNPbamIh-tQrKjfZ7AfBe1W_71AiuwC2UZw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"amount\":\"40\",\"payment_method\":\"credit card\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/bills/5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"bills",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top 3",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjkwODE5NSwianRpIjoiNDA1MDA2N2UtODEwNy00NTc2LWJmYWQtNGVkYzNjMWNiYTI3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJ1c2VyX2lkIjoiMiIsInJvbGUiOiJhc3Npc3RhbnQifSwibmJmIjoxNzE2OTA4MTk1LCJjc3JmIjoiOGZhNDI4NDItYjQ5YS00NjczLThkZGYtNjA5ZmVjM2U5ZjRjIiwiZXhwIjoxNzE2OTA5MDk1fQ.MCe1-WredslOhNrHhoNTlnsEHQOYVolwrrRAVUVb5Bk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/top3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"top3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Daily summary",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjkwNTY1NSwianRpIjoiYzIzNmU2ZDItNTJiYi00ZjZjLTgwNDktNGRhNGVhZmY0ODQyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJ1c2VyX2lkIjoiMiIsInJvbGUiOiJhc3Npc3RhbnQifSwibmJmIjoxNzE2OTA1NjU1LCJjc3JmIjoiZmZmM2NlNWQtNGQ2YS00NGRkLWI2NzctMWFjMDQ4NGFhNGY4IiwiZXhwIjoxNzE2OTA2NTU1fQ.AzjMAnrMH7juCrggYoB9suj1wTa-WVHHUu-uh0WklQc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5050/dbproj/daily/2024-05-20",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5050",
+					"path": [
+						"dbproj",
+						"daily",
+						"2024-05-20"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

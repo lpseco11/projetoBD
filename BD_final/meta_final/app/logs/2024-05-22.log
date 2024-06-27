@@ -1,0 +1,59 @@
+20:20:41 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+20:20:41 INFO:  [33mPress CTRL+C to quit[0m
+20:20:44 INFO:  127.0.0.1 - - [22/May/2024 20:20:44] "[33mGET / HTTP/1.1[0m" 404 -
+20:23:12 INFO:  127.0.0.1 - - [22/May/2024 20:23:12] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+20:24:22 INFO:  127.0.0.1 - - [22/May/2024 20:24:22] "[33mPOST /dbproj/regier/doctor HTTP/1.1[0m" 404 -
+20:24:27 INFO:  127.0.0.1 - - [22/May/2024 20:24:27] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+20:31:01 INFO:  127.0.0.1 - - [22/May/2024 20:31:01] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+20:31:06 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+20:31:06 INFO:  [33mPress CTRL+C to quit[0m
+20:31:12 INFO:  127.0.0.1 - - [22/May/2024 20:31:12] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+20:31:37 INFO:  127.0.0.1 - - [22/May/2024 20:31:37] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+20:33:28 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+20:33:28 INFO:  [33mPress CTRL+C to quit[0m
+20:33:34 INFO:  127.0.0.1 - - [22/May/2024 20:33:34] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+20:35:00 INFO:  127.0.0.1 - - [22/May/2024 20:35:00] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+20:35:06 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+20:35:06 INFO:  [33mPress CTRL+C to quit[0m
+20:35:08 INFO:  127.0.0.1 - - [22/May/2024 20:35:08] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+20:36:22 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+20:36:22 INFO:  [33mPress CTRL+C to quit[0m
+20:36:25 INFO:  127.0.0.1 - - [22/May/2024 20:36:25] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+20:39:18 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+20:39:18 INFO:  [33mPress CTRL+C to quit[0m
+20:39:24 INFO:  127.0.0.1 - - [22/May/2024 20:39:24] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+20:40:13 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+20:40:13 INFO:  [33mPress CTRL+C to quit[0m
+20:40:17 INFO:  127.0.0.1 - - [22/May/2024 20:40:17] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+20:41:41 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+20:41:41 INFO:  [33mPress CTRL+C to quit[0m
+20:41:50 INFO:  127.0.0.1 - - [22/May/2024 20:41:50] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+22:01:17 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+22:01:17 INFO:  [33mPress CTRL+C to quit[0m
+22:01:29 INFO:  127.0.0.1 - - [22/May/2024 22:01:29] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+22:32:24 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+22:32:24 INFO:  [33mPress CTRL+C to quit[0m
+22:32:50 INFO:  127.0.0.1 - - [22/May/2024 22:32:50] "[35m[1mPOST /dbproj/register/doctor HTTP/1.1[0m" 500 -
+22:33:37 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+22:33:37 INFO:  [33mPress CTRL+C to quit[0m
+22:33:41 INFO:  127.0.0.1 - - [22/May/2024 22:33:41] "[35m[1mPOST /dbproj/register/doctor HTTP/1.1[0m" 500 -
+22:36:29 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+22:36:29 INFO:  [33mPress CTRL+C to quit[0m
+22:36:32 INFO:  127.0.0.1 - - [22/May/2024 22:36:32] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+22:51:03 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+22:51:03 INFO:  [33mPress CTRL+C to quit[0m
+22:52:04 INFO:  127.0.0.1 - - [22/May/2024 22:52:04] "POST /dbproj/register/doctor HTTP/1.1" 200 -
+22:52:43 INFO:  127.0.0.1 - - [22/May/2024 22:52:43] "POST /dbproj/register/doctor HTTP/1.1" 200 -

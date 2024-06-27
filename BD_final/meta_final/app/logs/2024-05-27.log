@@ -1,0 +1,262 @@
+00:22:21 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+00:22:21 INFO:  [33mPress CTRL+C to quit[0m
+00:22:27 INFO:  127.0.0.1 - - [27/May/2024 00:22:27] "[33mGET /dbproj/prescriptions/2 HTTP/1.1[0m" 404 -
+00:22:34 INFO:  127.0.0.1 - - [27/May/2024 00:22:34] "[33mGET /dbproj/prescriptions/0 HTTP/1.1[0m" 404 -
+00:26:50 INFO:  127.0.0.1 - - [27/May/2024 00:26:50] "GET /dbproj/prescriptions/20 HTTP/1.1" 200 -
+00:34:03 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+00:34:03 INFO:  [33mPress CTRL+C to quit[0m
+00:34:10 INFO:  127.0.0.1 - - [27/May/2024 00:34:10] "[31m[1mGET /dbproj/prescriptions/20 HTTP/1.1[0m" 401 -
+00:34:15 INFO:  127.0.0.1 - - [27/May/2024 00:34:15] "PUT /dbproj/user HTTP/1.1" 200 -
+00:34:42 INFO:  127.0.0.1 - - [27/May/2024 00:34:42] "[35m[1mGET /dbproj/prescriptions/20 HTTP/1.1[0m" 500 -
+00:35:05 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+00:35:05 INFO:  [33mPress CTRL+C to quit[0m
+00:35:11 INFO:  127.0.0.1 - - [27/May/2024 00:35:11] "[35m[1mGET /dbproj/prescriptions/20 HTTP/1.1[0m" 500 -
+00:40:33 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+00:40:33 INFO:  [33mPress CTRL+C to quit[0m
+00:40:36 INFO:  127.0.0.1 - - [27/May/2024 00:40:36] "GET /dbproj/prescriptions/20 HTTP/1.1" 200 -
+00:45:44 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+00:45:44 INFO:  [33mPress CTRL+C to quit[0m
+00:45:46 INFO:  127.0.0.1 - - [27/May/2024 00:45:46] "GET /dbproj/prescriptions/20 HTTP/1.1" 200 -
+00:46:25 INFO:  127.0.0.1 - - [27/May/2024 00:46:25] "[33mGET /dbproj/prescriptions/26 HTTP/1.1[0m" 404 -
+01:01:40 INFO:  127.0.0.1 - - [27/May/2024 01:01:40] "PUT /dbproj/user HTTP/1.1" 200 -
+01:02:25 ERROR:  POST /Scheduling surgery - error: record "new" has no field "hospitalization_hospitalization_id"
+CONTEXT:  SQL statement "UPDATE bill
+    SET cost = cost + 75
+    WHERE hospitalization_hospitalization_id = NEW.hospitalization_hospitalization_id"
+PL/pgSQL function update_bill_hospitalization() line 4 at SQL statement
+
+01:02:25 INFO:  127.0.0.1 - - [27/May/2024 01:02:25] "POST /dbproj/surgery HTTP/1.1" 200 -
+01:08:59 INFO:  127.0.0.1 - - [27/May/2024 01:08:59] "POST /dbproj/surgery HTTP/1.1" 200 -
+01:09:44 INFO:  127.0.0.1 - - [27/May/2024 01:09:44] "[35m[1mPOST /dbproj/surgery/1 HTTP/1.1[0m" 500 -
+01:12:24 INFO:  127.0.0.1 - - [27/May/2024 01:12:24] "[31m[1mPOST /dbproj/surgery/1 HTTP/1.1[0m" 401 -
+01:12:32 INFO:  127.0.0.1 - - [27/May/2024 01:12:32] "PUT /dbproj/user HTTP/1.1" 200 -
+01:12:45 INFO:  127.0.0.1 - - [27/May/2024 01:12:45] "[35m[1mPOST /dbproj/surgery/1 HTTP/1.1[0m" 500 -
+01:13:58 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+01:13:58 INFO:  [33mPress CTRL+C to quit[0m
+01:14:03 INFO:  127.0.0.1 - - [27/May/2024 01:14:03] "POST /dbproj/surgery/1 HTTP/1.1" 200 -
+15:48:21 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+15:48:21 INFO:  [33mPress CTRL+C to quit[0m
+15:48:28 INFO:  127.0.0.1 - - [27/May/2024 15:48:28] "PUT /dbproj/user HTTP/1.1" 200 -
+15:48:45 INFO:  127.0.0.1 - - [27/May/2024 15:48:45] "POST /dbproj/surgery HTTP/1.1" 200 -
+15:49:47 INFO:  127.0.0.1 - - [27/May/2024 15:49:47] "[35m[1mPOST /dbproj/surgery/8 HTTP/1.1[0m" 500 -
+15:50:12 INFO:  127.0.0.1 - - [27/May/2024 15:50:12] "[35m[1mPOST /dbproj/surgery/8 HTTP/1.1[0m" 500 -
+15:50:18 INFO:  127.0.0.1 - - [27/May/2024 15:50:18] "POST /dbproj/surgery/8 HTTP/1.1" 200 -
+15:58:38 INFO:  127.0.0.1 - - [27/May/2024 15:58:38] "POST /dbproj/surgery HTTP/1.1" 200 -
+15:59:12 INFO:  127.0.0.1 - - [27/May/2024 15:59:12] "POST /dbproj/surgery/3 HTTP/1.1" 200 -
+16:00:27 INFO:  127.0.0.1 - - [27/May/2024 16:00:27] "[31m[1mPOST /dbproj/appointment HTTP/1.1[0m" 401 -
+16:00:45 INFO:  127.0.0.1 - - [27/May/2024 16:00:45] "[31m[1mPOST /dbproj/appointment HTTP/1.1[0m" 422 -
+16:01:11 INFO:  127.0.0.1 - - [27/May/2024 16:01:11] "POST /dbproj/appointment HTTP/1.1" 200 -
+16:15:04 INFO:  127.0.0.1 - - [27/May/2024 16:15:04] "PUT /dbproj/user HTTP/1.1" 200 -
+16:15:19 INFO:  127.0.0.1 - - [27/May/2024 16:15:19] "[31m[1mGET /dbproj/prescriptions/26 HTTP/1.1[0m" 403 -
+17:16:29 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+17:16:29 INFO:  [33mPress CTRL+C to quit[0m
+17:18:08 INFO:  127.0.0.1 - - [27/May/2024 17:18:08] "PUT /dbproj/user HTTP/1.1" 200 -
+17:23:24 INFO:  127.0.0.1 - - [27/May/2024 17:23:24] "[31m[1mPOST /dbproj/bills/8 HTTP/1.1[0m" 403 -
+17:24:02 INFO:  127.0.0.1 - - [27/May/2024 17:24:02] "PUT /dbproj/user HTTP/1.1" 200 -
+17:24:17 INFO:  127.0.0.1 - - [27/May/2024 17:24:17] "[31m[1mPOST /dbproj/bills/8 HTTP/1.1[0m" 403 -
+18:00:34 INFO:  127.0.0.1 - - [27/May/2024 18:00:34] "PUT /dbproj/user HTTP/1.1" 200 -
+18:00:47 INFO:  127.0.0.1 - - [27/May/2024 18:00:47] "[31m[1mPOST /dbproj/bills/3 HTTP/1.1[0m" 403 -
+18:06:11 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+18:06:11 INFO:  [33mPress CTRL+C to quit[0m
+18:06:18 INFO:  127.0.0.1 - - [27/May/2024 18:06:18] "[31m[1mPOST /dbproj/bills/3 HTTP/1.1[0m" 403 -
+18:10:11 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+18:10:11 INFO:  [33mPress CTRL+C to quit[0m
+18:10:14 INFO:  127.0.0.1 - - [27/May/2024 18:10:14] "PUT /dbproj/user HTTP/1.1" 200 -
+18:14:11 INFO:  127.0.0.1 - - [27/May/2024 18:14:11] "[31m[1mPOST /dbproj/bills/3 HTTP/1.1[0m" 403 -
+18:14:32 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+18:14:32 INFO:  [33mPress CTRL+C to quit[0m
+18:14:35 INFO:  127.0.0.1 - - [27/May/2024 18:14:35] "[31m[1mPOST /dbproj/bills/3 HTTP/1.1[0m" 403 -
+18:15:21 INFO:  127.0.0.1 - - [27/May/2024 18:15:21] "PUT /dbproj/user HTTP/1.1" 200 -
+18:15:34 INFO:  127.0.0.1 - - [27/May/2024 18:15:34] "[31m[1mPOST /dbproj/bills/3 HTTP/1.1[0m" 403 -
+18:16:26 INFO:  127.0.0.1 - - [27/May/2024 18:16:26] "PUT /dbproj/user HTTP/1.1" 200 -
+18:16:39 INFO:  127.0.0.1 - - [27/May/2024 18:16:39] "[31m[1mPOST /dbproj/bills/3 HTTP/1.1[0m" 403 -
+18:18:28 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+18:18:28 INFO:  [33mPress CTRL+C to quit[0m
+18:18:32 INFO:  127.0.0.1 - - [27/May/2024 18:18:32] "POST /dbproj/bills/3 HTTP/1.1" 200 -
+18:20:20 INFO:  127.0.0.1 - - [27/May/2024 18:20:20] "[31m[1mPOST /dbproj/bills/8 HTTP/1.1[0m" 403 -
+18:21:05 INFO:  127.0.0.1 - - [27/May/2024 18:21:05] "PUT /dbproj/user HTTP/1.1" 200 -
+18:21:16 INFO:  127.0.0.1 - - [27/May/2024 18:21:16] "POST /dbproj/bills/8 HTTP/1.1" 200 -
+18:21:55 INFO:  127.0.0.1 - - [27/May/2024 18:21:55] "POST /dbproj/bills/8 HTTP/1.1" 200 -
+18:36:45 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+18:36:45 INFO:  [33mPress CTRL+C to quit[0m
+18:36:50 INFO:  127.0.0.1 - - [27/May/2024 18:36:50] "PUT /dbproj/user HTTP/1.1" 200 -
+18:37:07 INFO:  127.0.0.1 - - [27/May/2024 18:37:07] "POST /dbproj/bills/8 HTTP/1.1" 200 -
+18:39:47 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+18:39:47 INFO:  [33mPress CTRL+C to quit[0m
+18:39:50 INFO:  127.0.0.1 - - [27/May/2024 18:39:50] "PUT /dbproj/user HTTP/1.1" 200 -
+18:39:59 INFO:  127.0.0.1 - - [27/May/2024 18:39:59] "[31m[1mPOST /dbproj/bills/8 HTTP/1.1[0m" 400 -
+18:40:56 INFO:  127.0.0.1 - - [27/May/2024 18:40:56] "POST /dbproj/bills/8 HTTP/1.1" 200 -
+19:13:09 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+19:13:09 INFO:  [33mPress CTRL+C to quit[0m
+19:13:16 ERROR:  Error during login: tuple index out of range
+19:13:16 INFO:  127.0.0.1 - - [27/May/2024 19:13:16] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+19:14:17 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+19:14:17 INFO:  [33mPress CTRL+C to quit[0m
+19:14:19 INFO:  127.0.0.1 - - [27/May/2024 19:14:19] "PUT /dbproj/user HTTP/1.1" 200 -
+19:14:46 INFO:  127.0.0.1 - - [27/May/2024 19:14:46] "[31m[1mGET /dbproj/appointments/10 HTTP/1.1[0m" 403 -
+19:15:34 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+19:15:34 INFO:  [33mPress CTRL+C to quit[0m
+19:15:44 INFO:  127.0.0.1 - - [27/May/2024 19:15:44] "[33mGET /dbproj/appointments/10 HTTP/1.1[0m" 404 -
+19:15:54 INFO:  127.0.0.1 - - [27/May/2024 19:15:54] "[33mGET /dbproj/appointments/8 HTTP/1.1[0m" 404 -
+19:15:57 INFO:  127.0.0.1 - - [27/May/2024 19:15:57] "[33mGET /dbproj/appointments/3 HTTP/1.1[0m" 404 -
+19:16:38 INFO:  127.0.0.1 - - [27/May/2024 19:16:38] "GET /dbproj/appointments/20 HTTP/1.1" 200 -
+19:17:24 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+19:17:24 INFO:  [33mPress CTRL+C to quit[0m
+19:17:29 INFO:  127.0.0.1 - - [27/May/2024 19:17:29] "GET /dbproj/appointments/20 HTTP/1.1" 200 -
+19:17:57 INFO:  127.0.0.1 - - [27/May/2024 19:17:57] "PUT /dbproj/user HTTP/1.1" 200 -
+19:18:07 INFO:  127.0.0.1 - - [27/May/2024 19:18:07] "[31m[1mGET /dbproj/appointments/20 HTTP/1.1[0m" 403 -
+19:18:46 INFO:  127.0.0.1 - - [27/May/2024 19:18:46] "PUT /dbproj/user HTTP/1.1" 200 -
+19:18:54 INFO:  127.0.0.1 - - [27/May/2024 19:18:54] "GET /dbproj/appointments/20 HTTP/1.1" 200 -
+19:19:01 INFO:  127.0.0.1 - - [27/May/2024 19:19:01] "GET /dbproj/appointments/26 HTTP/1.1" 200 -
+21:43:49 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+21:43:49 INFO:  [33mPress CTRL+C to quit[0m
+21:43:55 INFO:  127.0.0.1 - - [27/May/2024 21:43:55] "PUT /dbproj/user HTTP/1.1" 200 -
+21:45:15 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+21:45:15 INFO:  [33mPress CTRL+C to quit[0m
+21:45:19 INFO:  127.0.0.1 - - [27/May/2024 21:45:19] "PUT /dbproj/user HTTP/1.1" 200 -
+21:45:46 INFO:  127.0.0.1 - - [27/May/2024 21:45:46] "[35m[1mGET /dbproj/appointments/20 HTTP/1.1[0m" 500 -
+21:48:23 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+21:48:23 INFO:  [33mPress CTRL+C to quit[0m
+21:48:31 INFO:  127.0.0.1 - - [27/May/2024 21:48:31] "[35m[1mGET /dbproj/appointments/20 HTTP/1.1[0m" 500 -
+21:50:15 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+21:50:15 INFO:  [33mPress CTRL+C to quit[0m
+21:50:21 INFO:  127.0.0.1 - - [27/May/2024 21:50:21] "GET /dbproj/appointments/20 HTTP/1.1" 200 -
+21:50:45 INFO:  127.0.0.1 - - [27/May/2024 21:50:45] "GET /dbproj/appointments/26 HTTP/1.1" 200 -
+21:50:53 INFO:  127.0.0.1 - - [27/May/2024 21:50:53] "[33mGET /dbproj/appointments/18 HTTP/1.1[0m" 404 -
+21:50:57 INFO:  127.0.0.1 - - [27/May/2024 21:50:57] "GET /dbproj/appointments/20 HTTP/1.1" 200 -
+21:52:10 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+21:52:10 INFO:  [33mPress CTRL+C to quit[0m
+21:52:12 INFO:  127.0.0.1 - - [27/May/2024 21:52:12] "GET /dbproj/appointments/20 HTTP/1.1" 200 -
+21:56:42 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+21:56:42 INFO:  [33mPress CTRL+C to quit[0m
+21:57:17 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+21:57:17 INFO:  [33mPress CTRL+C to quit[0m
+21:57:22 INFO:  127.0.0.1 - - [27/May/2024 21:57:22] "[31m[1mGET /dbproj/appointments/20 HTTP/1.1[0m" 403 -
+21:57:33 INFO:  127.0.0.1 - - [27/May/2024 21:57:33] "GET /dbproj/appointments/26 HTTP/1.1" 200 -
+22:32:23 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+22:32:23 INFO:  [33mPress CTRL+C to quit[0m
+22:33:03 INFO:  127.0.0.1 - - [27/May/2024 22:33:03] "PUT /dbproj/user HTTP/1.1" 200 -
+22:33:10 ERROR:  Error during login: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+22:33:10 INFO:  127.0.0.1 - - [27/May/2024 22:33:10] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+22:33:17 INFO:  127.0.0.1 - - [27/May/2024 22:33:17] "PUT /dbproj/user HTTP/1.1" 200 -
+22:33:50 INFO:  127.0.0.1 - - [27/May/2024 22:33:50] "[31m[1mGET /dbproj/prescriptions/26 HTTP/1.1[0m" 403 -
+22:34:36 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+22:34:36 INFO:  [33mPress CTRL+C to quit[0m
+22:34:40 INFO:  127.0.0.1 - - [27/May/2024 22:34:40] "[31m[1mGET /dbproj/prescriptions/26 HTTP/1.1[0m" 403 -
+22:40:03 INFO:  127.0.0.1 - - [27/May/2024 22:40:03] "[31m[1mGET /dbproj/appointments/20 HTTP/1.1[0m" 401 -
+22:40:22 INFO:  127.0.0.1 - - [27/May/2024 22:40:22] "PUT /dbproj/user HTTP/1.1" 200 -
+22:40:35 INFO:  127.0.0.1 - - [27/May/2024 22:40:35] "[31m[1mGET /dbproj/appointments/20 HTTP/1.1[0m" 403 -
+22:44:09 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+22:44:09 INFO:  [33mPress CTRL+C to quit[0m
+22:44:16 INFO:  127.0.0.1 - - [27/May/2024 22:44:16] "[31m[1mGET /dbproj/appointments/20 HTTP/1.1[0m" 403 -
+22:45:04 INFO:  127.0.0.1 - - [27/May/2024 22:45:04] "PUT /dbproj/user HTTP/1.1" 200 -
+22:45:18 INFO:  127.0.0.1 - - [27/May/2024 22:45:18] "GET /dbproj/appointments/20 HTTP/1.1" 200 -
+22:45:23 INFO:  127.0.0.1 - - [27/May/2024 22:45:23] "[31m[1mGET /dbproj/appointments/26 HTTP/1.1[0m" 403 -
+22:46:43 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+22:46:43 INFO:  [33mPress CTRL+C to quit[0m
+22:46:48 INFO:  127.0.0.1 - - [27/May/2024 22:46:48] "[31m[1mGET /dbproj/appointments/26 HTTP/1.1[0m" 403 -
+22:46:51 INFO:  127.0.0.1 - - [27/May/2024 22:46:51] "GET /dbproj/appointments/20 HTTP/1.1" 200 -
+22:47:13 INFO:  127.0.0.1 - - [27/May/2024 22:47:13] "PUT /dbproj/user HTTP/1.1" 200 -
+22:47:26 INFO:  127.0.0.1 - - [27/May/2024 22:47:26] "GET /dbproj/appointments/20 HTTP/1.1" 200 -
+22:47:30 INFO:  127.0.0.1 - - [27/May/2024 22:47:30] "GET /dbproj/appointments/26 HTTP/1.1" 200 -
+22:47:35 INFO:  127.0.0.1 - - [27/May/2024 22:47:35] "[33mGET /dbproj/appointments/22 HTTP/1.1[0m" 404 -
+22:53:49 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+22:53:49 INFO:  [33mPress CTRL+C to quit[0m
+22:54:03 INFO:  127.0.0.1 - - [27/May/2024 22:54:03] "PUT /dbproj/user HTTP/1.1" 200 -
+22:54:14 INFO:  127.0.0.1 - - [27/May/2024 22:54:14] "[33mGET /dbproj/prescriptions/26 HTTP/1.1[0m" 404 -
+22:54:18 INFO:  127.0.0.1 - - [27/May/2024 22:54:18] "GET /dbproj/prescriptions/20 HTTP/1.1" 200 -
+22:54:52 INFO:  127.0.0.1 - - [27/May/2024 22:54:52] "PUT /dbproj/user HTTP/1.1" 200 -
+22:55:07 INFO:  127.0.0.1 - - [27/May/2024 22:55:07] "[31m[1mGET /dbproj/prescriptions/20 HTTP/1.1[0m" 403 -
+22:55:19 INFO:  127.0.0.1 - - [27/May/2024 22:55:19] "[31m[1mGET /dbproj/prescriptions/26 HTTP/1.1[0m" 403 -
+22:56:32 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+22:56:32 INFO:  [33mPress CTRL+C to quit[0m
+22:56:39 INFO:  127.0.0.1 - - [27/May/2024 22:56:39] "[31m[1mGET /dbproj/prescriptions/20 HTTP/1.1[0m" 403 -
+23:00:29 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+23:00:29 INFO:  [33mPress CTRL+C to quit[0m
+23:00:37 INFO:  127.0.0.1 - - [27/May/2024 23:00:37] "GET /dbproj/prescriptions/20 HTTP/1.1" 200 -
+23:01:03 INFO:  127.0.0.1 - - [27/May/2024 23:01:03] "PUT /dbproj/user HTTP/1.1" 200 -
+23:01:20 ERROR:  GET /prescriptions - error: 'NoneType' object is not subscriptable
+23:01:20 INFO:  127.0.0.1 - - [27/May/2024 23:01:20] "[35m[1mGET /dbproj/prescriptions/20 HTTP/1.1[0m" 500 -
+23:01:33 ERROR:  GET /prescriptions - error: 'NoneType' object is not subscriptable
+23:01:33 INFO:  127.0.0.1 - - [27/May/2024 23:01:33] "[35m[1mGET /dbproj/prescriptions/26 HTTP/1.1[0m" 500 -
+23:03:18 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+23:03:18 INFO:  [33mPress CTRL+C to quit[0m
+23:03:23 ERROR:  GET /prescriptions - error: 'NoneType' object is not subscriptable
+23:03:23 INFO:  127.0.0.1 - - [27/May/2024 23:03:23] "[35m[1mGET /dbproj/prescriptions/20 HTTP/1.1[0m" 500 -
+23:03:55 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+23:03:55 INFO:  [33mPress CTRL+C to quit[0m
+23:03:57 ERROR:  GET /prescriptions - error: 'NoneType' object is not subscriptable
+23:03:57 INFO:  127.0.0.1 - - [27/May/2024 23:03:57] "[35m[1mGET /dbproj/prescriptions/20 HTTP/1.1[0m" 500 -
+23:04:03 ERROR:  GET /prescriptions - error: 'NoneType' object is not subscriptable
+23:04:03 INFO:  127.0.0.1 - - [27/May/2024 23:04:03] "[35m[1mGET /dbproj/prescriptions/233 HTTP/1.1[0m" 500 -
+23:05:17 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+23:05:17 INFO:  [33mPress CTRL+C to quit[0m
+23:05:24 INFO:  127.0.0.1 - - [27/May/2024 23:05:24] "[31m[1mGET /dbproj/prescriptions/20 HTTP/1.1[0m" 403 -
+23:05:35 INFO:  127.0.0.1 - - [27/May/2024 23:05:35] "PUT /dbproj/user HTTP/1.1" 200 -
+23:05:47 INFO:  127.0.0.1 - - [27/May/2024 23:05:47] "GET /dbproj/prescriptions/20 HTTP/1.1" 200 -
+23:06:14 INFO:  127.0.0.1 - - [27/May/2024 23:06:14] "PUT /dbproj/user HTTP/1.1" 200 -
+23:06:47 INFO:  127.0.0.1 - - [27/May/2024 23:06:47] "GET /dbproj/prescriptions/20 HTTP/1.1" 200 -
+23:11:42 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+23:11:42 INFO:  [33mPress CTRL+C to quit[0m
+23:11:48 INFO:  127.0.0.1 - - [27/May/2024 23:11:48] "GET /dbproj/prescriptions/20 HTTP/1.1" 200 -
+23:12:01 INFO:  127.0.0.1 - - [27/May/2024 23:12:01] "PUT /dbproj/user HTTP/1.1" 200 -
+23:12:14 ERROR:  GET /prescriptions - error: tuple index out of range
+23:12:14 INFO:  127.0.0.1 - - [27/May/2024 23:12:14] "[35m[1mGET /dbproj/prescriptions/20 HTTP/1.1[0m" 500 -
+23:12:39 INFO:  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+23:12:39 INFO:  [33mPress CTRL+C to quit[0m
+23:12:42 INFO:  127.0.0.1 - - [27/May/2024 23:12:42] "GET /dbproj/prescriptions/20 HTTP/1.1" 200 -
+23:12:54 INFO:  127.0.0.1 - - [27/May/2024 23:12:54] "PUT /dbproj/user HTTP/1.1" 200 -
+23:13:04 INFO:  127.0.0.1 - - [27/May/2024 23:13:04] "GET /dbproj/prescriptions/20 HTTP/1.1" 200 -
+23:13:11 INFO:  127.0.0.1 - - [27/May/2024 23:13:11] "[31m[1mGET /dbproj/prescriptions/20 HTTP/1.1[0m" 403 -
+23:16:03 INFO:  127.0.0.1 - - [27/May/2024 23:16:03] "POST /dbproj/register/patient HTTP/1.1" 200 -
+23:16:21 INFO:  127.0.0.1 - - [27/May/2024 23:16:21] "POST /dbproj/register/patient HTTP/1.1" 200 -
+23:21:16 INFO:  127.0.0.1 - - [27/May/2024 23:21:16] "PUT /dbproj/user HTTP/1.1" 200 -
+23:23:28 INFO:  127.0.0.1 - - [27/May/2024 23:23:28] "POST /dbproj/appointment HTTP/1.1" 200 -
+23:28:17 INFO:  127.0.0.1 - - [27/May/2024 23:28:17] "POST /dbproj/appointment HTTP/1.1" 200 -
+23:39:12 INFO:  127.0.0.1 - - [27/May/2024 23:39:12] "[31m[1mPOST /dbproj/surgery HTTP/1.1[0m" 401 -
+23:40:06 INFO:  127.0.0.1 - - [27/May/2024 23:40:06] "PUT /dbproj/user HTTP/1.1" 200 -
+23:40:26 ERROR:  POST /Scheduling surgery - error: duplicate key value violates unique constraint "bill_pkey"
+DETAIL:  Key (bill_id)=(7) already exists.
+CONTEXT:  SQL statement "INSERT INTO bill (bill_id, cost, hospitalization_hospitalization_id, appointments_appointment_id,status)
+        VALUES (NEW.hospitalization_hospitalization_id, 75, NEW.hospitalization_hospitalization_id, NULL, 'unpaid')"
+PL/pgSQL function update_bill_surgery() line 10 at SQL statement
+
+23:40:26 INFO:  127.0.0.1 - - [27/May/2024 23:40:26] "POST /dbproj/surgery HTTP/1.1" 200 -
+23:41:16 INFO:  127.0.0.1 - - [27/May/2024 23:41:16] "POST /dbproj/surgery HTTP/1.1" 200 -
